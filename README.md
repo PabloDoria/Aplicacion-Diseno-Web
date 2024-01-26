@@ -93,36 +93,26 @@ git add .
 
 **3. Agregar comentarios a la confirmación.**
 
-bash
-Copy code
 git commit -m "Mensaje descriptivo del cambio"
 
 **4. Cargar sus cambios en el repositorio remoto.**
 
-bash
-Copy code
 git push origin <nombre de la rama>
 
 **5. Crear, explorar y eliminar ramas.**
 
 Crear una nueva rama:
 
-bash
-Copy code
 git branch <nombre de la nueva rama>
+
 Cambiar a una rama existente:
 
-bash
-Copy code
 git checkout <nombre de la rama>
+
 Eliminar una rama:
 
-bash
-Copy code
 git branch -d <nombre de la rama>
 
 **6. Revertir un repositorio a una confirmación específica.**
 
-bash
-Copy code
 git reset --hard <hash de la confirmación>
