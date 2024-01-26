@@ -1,4 +1,4 @@
-## Actividad 1 - Diseño de aplicaciones web
+# Actividad 1 - Diseño de aplicaciones web
 
 **Nombre:** Pablo Torres Doria  
 **Matricula:** Pablo Torres Doria  
@@ -6,32 +6,123 @@
 **Carrera:** Ingeniería en desarrollo de software  
 **Profesor:** Cristopher Gerardo Gaytán Díaz
 
-### Markdown
+## Sección de Markdown
 
-Markdown es un lenguaje de marcado ligero que se utiliza comúnmente para dar formato a documentos de texto plano. Fue diseñado para ser fácil de leer y escribir, incluso cuando no se está formateando. Markdown se convierte fácilmente a HTML, lo que lo hace útil para crear contenido web.
+Markdown es una sintaxis ligera y fácil de usar para formatear texto de manera que sea fácil de leer y escribir. Aquí te presento algunos de los principales elementos de formato en Markdown:
+Encabezados
 
-### Títulos y subtítulos
+# Encabezado 1 
+## Encabezado 2 
+### Encabezado 3 
+#### Encabezado 4 
+##### Encabezado 5 
+###### Encabezado 6 
 
-# Encabezado 1  
-## Encabezado 2  
-### Encabezado 3  
+**Texto en Negrita y Cursiva**
 
-### Listas
+**Texto en Negrita** 
+__Otra forma de escribir Negrita__ 
+*Texto en Cursiva*
+_Otra forma de escribir Cursiva_ 
+**Texto en _Negrita y Cursiva_** 
 
-- Elemento de lista
-- Otro elemento
-  1. Elemento numerado
-  2. Otro elemento numerado
+**Listas**
 
-### Énfasis
+Listas Ordenadas
 
-**Negrita**  
-*Cursiva*
+1. Primer elemento 
+2. Segundo elemento 
+1. Subelemento 
+2. Otro subelemento 
+3. Tercer elemento 
 
-### Código y bloques
+Listas No Ordenadas
 
-`Código en línea`
+- Elemento 1 
+- Elemento 2 
+- Subelemento 
+- Otro subelemento 
+- Elemento 3 
 
-```python
-# Bloque de código
-print("Hola, mundo!")
+**Enlaces e Imágenes**
+
+Enlaces
+
+[Texto del Enlace](URL) 
+
+Imágenes
+
+![Texto Alternativo](URL de la Imagen) 
+
+Citas
+
+> Esto es una cita. 
+
+Líneas Horizontales
+
+--- 
+
+**Código**
+
+Código en línea
+
+`Código en línea` 
+
+Bloques de Código
+
+```markdown 
+| Encabezado 1 | Encabezado 2 | 
+| ------------ | ------------ | 
+| Celda 1,1 | Celda 1,2 | 
+| Celda 2,1 | Celda 2,2 | 
+
+## Sección de Git.
+
+**1. Verificar el estado de un repositorio local.**
+
+```bash
+git status
+
+**2. Agregar archivos individuales o globalmente.**
+
+git add <nombre del archivo o directorio>
+
+**O para agregar todos los cambios:**
+
+git add .
+
+**3. Agregar comentarios a la confirmación.**
+
+bash
+Copy code
+git commit -m "Mensaje descriptivo del cambio"
+
+**4. Cargar sus cambios en el repositorio remoto.**
+
+bash
+Copy code
+git push origin <nombre de la rama>
+
+**5. Crear, explorar y eliminar ramas.**
+
+Crear una nueva rama:
+
+bash
+Copy code
+git branch <nombre de la nueva rama>
+Cambiar a una rama existente:
+
+bash
+Copy code
+git checkout <nombre de la rama>
+Eliminar una rama:
+
+bash
+Copy code
+git branch -d <nombre de la rama>
+
+**6. Revertir un repositorio a una confirmación específica.**
+
+bash
+Copy code
+git reset --hard <hash de la confirmación>
